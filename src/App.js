@@ -1,28 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import WorldChampions from './container/WorldChampions';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+const App = () =>{
+	return (
+		<div className="App">
+				<div className="header">
+					<h1>F1 World Champions</h1>
+					<h2>2005-2015</h2>
+				</div>
+        <WorldChampions />
+		</div>
+	);
 }
 
-export default App;
+export default App
