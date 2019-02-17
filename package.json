@@ -4,10 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "express": "^4.16.4",
-    "express-favicon": "^2.0.1",
     "node-sass": "^4.11.0",
-    "path": "^0.12.7",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-flag-icon-css": "^1.0.25",
