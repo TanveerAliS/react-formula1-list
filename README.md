@@ -2,6 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## This project has been deployed in Hearko
+
+[Demo](https://react-formula1-list.herokuapp.com/)
+
 In the project directory, you can run:
 
 ### `npm start`
